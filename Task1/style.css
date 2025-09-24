@@ -1,0 +1,64 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f5f5f5;
+  margin: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap; /* for mobile stacking */
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  background: white;
+  text-align: center;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0;
+}
+
+ul li {
+  margin: 8px 0;
+}
+
+button {
+  background: blue;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: darkblue;
+}
+
+.standard {
+  background: #e3f2fd; /* light blue */
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+
+.standard:hover {
+  transform: scale(1.1);
+}
